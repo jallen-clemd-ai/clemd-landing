@@ -83,6 +83,14 @@ a {
 .eyebrow { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--mint); font-weight: 500; margin-bottom: 20px; display: block; }
 .hero h1 { font-family: “Lora”, serif; font-size: clamp(40px,5vw,62px); line-height: 1.12; color: white; font-weight: 500; margin-bottom: 26px; }
 .hero h1 em { font-style: italic; color: var(--mint); }
+.hero-bridge {
+    font-family: "Lora", serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.15;
+    color: white;
+    margin-top: .5rem;
+}
 .hero-sub { font-size: 17px; line-height: 1.75; color: rgba(255,255,255,0.72); max-width: 560px; margin-bottom: 38px; }
 .hero-ctas { display: flex; gap: 14px; margin-bottom: 26px; flex-wrap: wrap; }
 .btn-hero-primary { padding: 15px 36px; background: var(--mint); color: var(--green); border: none; font-family: “DM Sans”,sans-serif; font-size: 15px; font-weight: 500; cursor: pointer; border-radius: 100px; }
@@ -392,7 +400,13 @@ html {
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <span class="eyebrow">Built by a daughter. For every family facing what mine did.</span>
-    <h1>You understood every word.<br><em>You have no idea<br> what any of it means.</em><br>CLE.MD is built for that moment — when the weight of it makes medicine impossible to hold.</h1>
+    <h1>You understood every word.<br>
+<em>You have no idea<br>what any of it means.</em>
+</h1>
+
+<h2 class="hero-bridge">
+CLE.MD is built for that moment — when the weight of it makes medicine impossible to hold.
+</h2>
     <p class="hero-sub">The problem isn’t a lack of medical information. It’s that information arrives at the exact moment people are least able to absorb it. <br>Without comprehension, there can be no connection.<br> Without connection, there can be no advocacy.<br> And without advocacy, patients are stripped of the power <br>to make informed decisions about their own care.</p>
     <div class="hero-ctas">
       <a href="https://app.clemd.ai"><button class="btn-hero-primary">Start Free</button></a>
